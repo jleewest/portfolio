@@ -1,0 +1,26 @@
+.About {
+  display: flex;
+}
+
+.About .link-button {
+  display: block;
+  margin: 45px auto;
+  padding: 16px 22px;
+}
+
+.About .primary-link {
+  font-size: 26px;
+  color: white;
+  text-decoration: none;
+}
+.About .primary-link:hover {
+  transition: all 100ms ease-in-out;
+}
+
+.About .about-subtitle {
+  font-size: 27px;
+}
+.About .about-photo {
+  margin: 1rem;
+  max-width: 50%;
+}
