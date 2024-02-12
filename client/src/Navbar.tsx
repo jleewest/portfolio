@@ -1,4 +1,4 @@
-import './Navbar.css';
+import './css/Navbar.css';
 
 function NavBar() {
   return (
@@ -6,13 +6,6 @@ function NavBar() {
       <div className='navigation-section sticky-top'>
         <nav className='navbar navbar-expand-md bg-body-tertiary'>
           <div>
-            <img
-              src='/src/assets/profile.JPG'
-              alt='professional profile picture thumbnail'
-              width='20px'
-              style={{ borderRadius: '50%' }}
-              className='prof-pic-thumbnail'
-            />
             <a className='navbar-brand' href='/'>
               Jenna Westendorf
             </a>

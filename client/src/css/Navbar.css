@@ -1,0 +1,19 @@
+.Navbar .menu-title {
+  text-decoration: none;
+}
+.Navbar .menu-title:hover {
+  font-size: 1.5rem;
+  transition: all 100ms ease-in-out;
+}
+.Navbar .menu-link {
+  text-decoration: none;
+}
+.Navbar .menu-link:hover,
+.Navbar .active {
+  font-weight: bold;
+  transition: all 100ms ease-in-out;
+}
+.Navbar .menu-icon:hover {
+  transform: scale(1.5);
+  transition: all 100ms ease-in-out;
+}

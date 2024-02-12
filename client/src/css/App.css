@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --heading-font-family: 'Playfair Display', serif;
+  --default-font-family: 'Poppins', sans-serif;
+  --stylized-font-family: 'Tangerine', cursive;
+}
