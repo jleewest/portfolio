@@ -30,9 +30,7 @@ function Footer() {
         </a>
         <a
           className='footer-icon'
-          href='https://www.linkedin.com/in/
-          jenna-westendorf
-          '
+          href='https://www.linkedin.com/in/jenna-westendorf'
           title='View my LinkedIn profile'
           target='_blank'
         >

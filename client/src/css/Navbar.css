@@ -31,7 +31,7 @@
 
 /* DARK THEME BUTTON */
 .theme-button {
-  border: 1.5px solid #525a65;
+  border: 1.5px solid var(--light-font);
   border-radius: 10px;
   padding: 0.25rem 0.75rem;
   font-size: 0.75rem;
@@ -41,8 +41,8 @@
 }
 
 .theme-button:hover {
-  color: #525a65;
-  background: #252323;
-  border: 1.5px solid #252323;
+  color: var(--light-font);
+  background: var(--dark-font);
+  border: 1.5px solid var(--dark-font);
   transition: 3ms ease-in-out;
 }

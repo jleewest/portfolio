@@ -2,10 +2,14 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: var(--default-font-family);
 }
 
 :root {
   --heading-font-family: 'Playfair Display', serif;
   --default-font-family: 'Poppins', sans-serif;
   --stylized-font-family: 'Tangerine', cursive;
+
+  --dark-font: #212529;
+  --light-font: #525a65;
 }
