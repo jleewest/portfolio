@@ -16,7 +16,7 @@ function Projects() {
     {
       id: 2,
       title: 'Community Collaboration Forum',
-      body: `a full-stack application designed as a user-friendly forum for club members to communicate and collaborate.`,
+      body: `A full-stack application designed as a user-friendly forum for club members to communicate and collaborate.`,
       stack: 'React, Clerk, Node.js, Express, Postgres, Sequelize',
       img: '/src/assets/community-forum.png',
       alt: 'community collaboration app preview',

@@ -22,10 +22,10 @@ function ProjectItem({ props }: AppProps) {
           className='img-fluid app-thumbnail'
         />
       </div>
-      <div>
+      <div className='body-container'>
         <h3>{props.title}</h3>
         <p>{props.body}</p>
-        <p>&lt;{props.stack}&gt;</p>
+        <p className='stack'>&lt;{props.stack}&gt;</p>
         <button className='link-button btn btn-dark border'>
           <a href={props.link} target='_blank' className='primary-link'>
             See project
