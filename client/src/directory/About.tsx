@@ -4,14 +4,41 @@ function About() {
   return (
     <div className='About' id='about'>
       <div className='about-container'>
+        <div className='header-container sm-header'>
+          <h2>About Me</h2>
+          <div>
+            <a
+              className='header-icon'
+              href='https://www.linkedin.com/in/jenna-westendorf'
+              title='View my LinkedIn profile'
+              target='_blank'
+            >
+              <i
+                className='fa-brands fa-linkedin menu-icon'
+                style={{ color: '#0a0a0a' }}
+              ></i>
+            </a>
+            <a
+              className='header-icon'
+              href='https://github.com/jleewest'
+              title='Explore my projects on GitHub'
+              target='_blank'
+            >
+              <i
+                className='fa-brands fa-square-github menu-icon'
+                style={{ color: '#000000' }}
+              ></i>
+            </a>
+          </div>
+        </div>
         <img
           src='/src/assets/full-profile.JPG'
           alt='professional photo'
           title='Jenna Westendorf professional image'
-          className='about-photo img-fluid'
+          className='about-photo'
         />
         <div>
-          <div className='header-container'>
+          <div className='header-container lg-header'>
             <h2>About Me</h2>
             <div>
               <a

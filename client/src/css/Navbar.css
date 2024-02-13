@@ -31,6 +31,7 @@
 
 /* DARK THEME BUTTON */
 .theme-button {
+  list-style: none;
   border: 1.5px solid var(--light-font);
   border-radius: 10px;
   padding: 0.25rem 0.75rem;
