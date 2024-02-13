@@ -1,0 +1,32 @@
+.background-image {
+  background-color: white;
+  background-image: url(/src/assets/alpine-mountain.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.background-contact {
+  min-height: 800px;
+}
+
+.contact-block {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 33px 12px;
+  margin: 100px 19px;
+}
+li {
+  list-style: none;
+}
+.contact-icon {
+  padding: 20px;
+  font-size: 26px;
+}
+.contact {
+  color: white;
+  font-family: var(--default-font-family);
+  font-size: 26px;
+  text-decoration: none;
+}
+.contact:hover {
+  text-decoration: underline;
+}
