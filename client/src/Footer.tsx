@@ -4,29 +4,29 @@ function Footer() {
   return (
     <div className='Footer background-image'>
       <nav className='my-2 my-sm-0 mr-sm-3'>
-        <a className='text-dark menu-link' href='/' title='Learn more about me'>
+        <a
+          className='text-dark menu-link'
+          href='#home'
+          title='Learn more about me'
+        >
           Home
         </a>
         <a
           className='text-dark menu-link'
-          href='/directory/about-me.html'
+          href='#about'
           title='Learn more about me'
         >
-          About Me
+          About
         </a>
         <a
           className='text-dark menu-link'
-          href='/directory/my-work.html'
+          href='#projects'
           title='View my work'
         >
-          My Work
+          Projects
         </a>
-        <a
-          className='text-dark menu-link'
-          href='/directory/contact-me.html'
-          title='Contact me'
-        >
-          Contact Me
+        <a className='text-dark menu-link' href='#contact' title='Contact me'>
+          Contact
         </a>
         <a
           className='footer-icon'
