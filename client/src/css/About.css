@@ -6,6 +6,10 @@
 }
 
 /* PHOTO */
+.About img {
+  box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.4);
+}
+
 .About .about-photo {
   margin: 1rem;
   max-width: 50%;
@@ -14,6 +18,12 @@
 }
 
 /* BODY */
+.About h2 {
+  font-family: var(--heading-font-family);
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
 .About .header-container {
   display: flex;
   justify-content: space-between;
@@ -32,17 +42,15 @@
   transition: transform 0.3s;
   font-size: 2.25rem;
 }
-.About h2 {
-  font-family: var(--heading-font-family);
-  margin: 1rem 0;
+
+.About p {
+  font-size: 0.9rem;
 }
 
 /* SKILLS */
 .About .skills {
-  text-align: center;
-  font-weight: 700;
   font-size: 1.25rem;
-  padding-bottom: 5rem;
+  line-height: 1.5rem;
 }
 
 /* BUTTONS */

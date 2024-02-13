@@ -8,7 +8,7 @@ function About() {
           src='/src/assets/full-profile.JPG'
           alt='professional photo'
           title='Jenna Westendorf professional image'
-          className='about-photo border img-fluid'
+          className='about-photo img-fluid'
         />
         <div>
           <div className='header-container'>
@@ -38,6 +38,10 @@ function About() {
               </a>
             </div>
           </div>
+          <p className='skills'>
+            &lt;Experienced with React, Typescript, Node.js, Express, MongoDB,
+            SQL, Responsive Web Development, CSS, Figma, GitHub, APIs&gt;
+          </p>
           <p>
             Whether I worked in the field of education, social work, or
             nonprofits, my career has always focused on advancing the capacity
@@ -68,12 +72,6 @@ function About() {
             puzzles.
           </p>
         </div>
-      </div>
-      <div>
-        <p className='skills'>
-          &lt;Experienced with React, Typescript, Node.js, Express, MongoDB,
-          SQL, Responsive Web Development, CSS, Figma, GitHub, APIs&gt;
-        </p>
       </div>
     </div>
   );
