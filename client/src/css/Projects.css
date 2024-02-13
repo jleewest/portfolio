@@ -74,3 +74,18 @@
   text-decoration: none;
   color: white;
 }
+
+@media (max-width: 1083px) {
+  .Projects {
+    padding: 2rem 3rem;
+  }
+  .Projects h2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .Projects {
+    padding: 2rem 1rem;
+  }
+}
