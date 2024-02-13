@@ -9,7 +9,7 @@ function Projects() {
       body: `A fullstack application designed to take the stress out of splitting expenses with others.`,
       stack:
         'React, Typescript, Material UI, Chart.js, Vanilla CSS, Node.js, Express, Prisma, Postgres, Vitest, Cypress',
-      img: '/src/assets/share-with-otter.png',
+      img: '/src/assets/ShareWithOtter.png',
       alt: 'ShareWithOtter app preview',
       link: 'https://youtu.be/LrQ4M3MHrb8',
     },
@@ -29,7 +29,7 @@ function Projects() {
 			city using geoloaction or a search bar with an additional ability
 			to toggle between Fahrenheit and Celsius temperature displays.`,
       stack: 'HTML, CSS, Javascript',
-      img: '/src/assets/weather-app.png',
+      img: '/src/assets/weather.png',
       alt: 'weather app preview',
       link: 'https://delicate-bienenstitch-b69d3a.netlify.app/',
     },
@@ -40,7 +40,7 @@ function Projects() {
       stack: 'HTML, CSS, Javascript',
       img: '/src/assets/blackjack.png',
       alt: 'blackjack app preview',
-      link: 'https://fluffy-panda-3bd4b9.netlify.app/',
+      link: 'https://blackjack-jw.netlify.app/',
     },
     {
       id: 5,

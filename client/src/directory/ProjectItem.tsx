@@ -15,14 +15,12 @@ type AppProps = {
 function ProjectItem({ props }: AppProps) {
   return (
     <div className='ProjectItem'>
-      <div className='work-item-container'>
-        <div>
-          <img
-            src={props.img}
-            alt={props.alt}
-            className='img-fluid app-thumbnail'
-          />
-        </div>
+      <div className='img-container'>
+        <img
+          src={props.img}
+          alt={props.alt}
+          className='img-fluid app-thumbnail'
+        />
       </div>
       <div>
         <h3>{props.title}</h3>
