@@ -81,7 +81,7 @@ function Projects() {
   ];
 
   return (
-    <div className='Projects'>
+    <div className='Projects' id='projects'>
       <h2>Featured Projects</h2>
       <div className='project-item-container'>
         {featuredApps.map((app) => {

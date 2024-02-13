@@ -2,7 +2,7 @@ import '../css/Home.css';
 
 function Home() {
   return (
-    <div className='Home'>
+    <div className='Home' id='home'>
       {' '}
       <div className='background-home home-background m-0'>
         <div className='container'>

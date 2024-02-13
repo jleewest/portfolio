@@ -2,7 +2,7 @@ import '../css/About.css';
 
 function About() {
   return (
-    <div className='About'>
+    <div className='About' id='about'>
       <img
         src='/src/assets/full-profile.JPG'
         alt='professional photo'

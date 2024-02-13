@@ -1,8 +1,5 @@
-.background-image {
-  background-color: white;
-  background-image: url(/src/assets/alpine-mountain.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+.Contact {
+  background-color: #bfaca5;
 }
 
 .background-contact {

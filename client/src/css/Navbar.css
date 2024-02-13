@@ -1,10 +1,21 @@
-.Navbar .menu-title {
-  text-decoration: none;
+/* NAVBAR CONTAINER */
+
+.Navbar {
+  position: fixed; /* Ensure navbar stays fixed */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it appears on top of other content */
 }
-.Navbar .menu-title:hover {
-  font-size: 1.5rem;
-  transition: all 100ms ease-in-out;
+
+.Navbar .bg-body-tertiary {
+  background: rgba(124, 140, 165, 0.178) !important;
+  backdrop-filter: blur(0.5rem);
+  -webkit-backdrop-filter: blur(0.5rem);
+  border: 1px solid rgba(255, 255, 255, 0.02);
 }
+
+/* MENU ITEMS */
 .Navbar .menu-link {
   text-decoration: none;
 }
@@ -16,4 +27,22 @@
 .Navbar .menu-icon:hover {
   transform: scale(1.5);
   transition: all 100ms ease-in-out;
+}
+
+/* DARK THEME BUTTON */
+.theme-button {
+  border: 1.5px solid #525a65;
+  border-radius: 10px;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 400;
+  cursor: pointer;
+  margin-bottom: -1rem;
+}
+
+.theme-button:hover {
+  color: #525a65;
+  background: #252323;
+  border: 1.5px solid #252323;
+  transition: 3ms ease-in-out;
 }

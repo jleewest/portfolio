@@ -2,7 +2,7 @@ import '../css/Contact.css';
 
 function Contact() {
   return (
-    <div className='Contact background-image'>
+    <div className='Contact' id='contact'>
       <h2>Contact Me</h2>
       <h3>&lt;Let's get in touch!&gt;</h3>
       <div className='contact-block d-flex justify-content-center'>
