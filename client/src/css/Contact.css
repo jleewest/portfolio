@@ -9,7 +9,7 @@
   justify-content: center;
   background-color: rgba(34, 52, 76, 0.8);
   padding: 2rem;
-  margin: 3rem 5rem;
+  margin: 3rem 13rem;
   border-radius: 10px;
   box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.4);
 }
@@ -25,6 +25,10 @@ h3 {
   text-align: center;
 }
 /* CONTACT DETAILS */
+.Contact ul {
+  padding: 0;
+}
+
 .Contact li {
   list-style: none;
 }
@@ -42,4 +46,27 @@ h3 {
 }
 .Contact .contact:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 1083px) {
+  .Contact {
+    margin: 2rem;
+  }
+
+  .Contact .contact-block {
+    padding: 1rem;
+    margin: 2rem 13rem;
+  }
+  .Contact .contact {
+    font-size: 1.25rem;
+  }
+  .Contact .contact-icon {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 870px) {
+  .Contact .contact-block {
+    margin: 2rem -1rem;
+  }
 }
