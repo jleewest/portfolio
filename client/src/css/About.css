@@ -129,3 +129,15 @@
     padding: 0.2rem;
   }
 }
+
+@media (max-width: 355px) {
+  .About h2 {
+    font-size: 1.5rem;
+  }
+  .About a > i {
+    font-size: 1.5rem;
+  }
+  .About .header-icon {
+    padding: 0.2rem;
+  }
+}
