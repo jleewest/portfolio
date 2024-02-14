@@ -20,7 +20,10 @@ function NavBar(props: NavbarProps) {
           >
             <span className='navbar-toggler-icon'></span>
           </button>
-          <div className='collapse navbar-collapse justify-content-start'>
+          <div
+            className='collapse navbar-collapse justify-content-start'
+            id='navbarNav'
+          >
             <ul className='navbar-nav'>
               <li className='nav-item'>
                 <a
