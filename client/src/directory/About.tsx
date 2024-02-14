@@ -32,7 +32,7 @@ function About() {
           </div>
         </div>
         <img
-          src='/src/assets/full-profile.JPG'
+          src='/src/assets/full-profile.jpg'
           alt='professional photo'
           title='Jenna Westendorf professional image'
           className='about-photo'
@@ -105,7 +105,7 @@ function About() {
               style={{ backgroundColor: 'var(--button-color)' }}
             >
               <a
-                href='../src/assets/Jenna-Westendorf-Resume.pdf'
+                href='../src/assets/jenna-westendorf-resume.pdf'
                 target='_blank'
                 download='Resume-Jenna Westendorf'
                 className='primary-link resume'

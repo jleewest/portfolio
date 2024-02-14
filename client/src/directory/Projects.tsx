@@ -5,12 +5,12 @@ function Projects() {
   const featuredApps = [
     {
       id: 1,
-      title: 'ShareWithOtter',
+      title: 'ShareWithOtters',
       body: `A fullstack application designed to take the stress out of splitting expenses with others.`,
       stack:
         'React, Typescript, Material UI, Chart.js, Vanilla CSS, Node.js, Express, Prisma, Postgres, Vitest, Cypress',
-      img: '/src/assets/ShareWithOtter.png',
-      alt: 'ShareWithOtter app preview',
+      img: '/src/assets/share-with-otters.png',
+      alt: 'ShareWithOtters app preview',
       link: 'https://youtu.be/LrQ4M3MHrb8',
     },
     {
@@ -74,7 +74,7 @@ function Projects() {
       title: 'AI Storyteller',
       body: `An interactive app that uses AI to create children's stories with heartfelt morals.`,
       stack: 'HTML, CSS, Javascript',
-      img: '/src/assets/AI-storyteller.png',
+      img: '/src/assets/ai-storyteller.png',
       alt: 'storyteller app preview',
       link: 'https://ai-practice-project.netlify.app/',
     },
