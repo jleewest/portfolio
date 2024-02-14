@@ -1,13 +1,13 @@
 import '../css/Projects.css';
 import ProjectItem from './ProjectItem';
-import aiStoryteller from '../assets/ai-storyteller.png';
-import dictionary from '../assets/dictionary-app.png';
-import worldClock from '../assets/world-clock-app.png';
-import travelPage from '../assets/travel-homepage.png';
-import blackjack from '../assets/blackjack.png';
-import weatherApp from '../assets/weather.png';
-import communityForum from '../assets/community-forum.png';
-import shareWithOtters from '../assets/share-with-otters.png';
+import aiStoryteller from '../../public/assets/ai-storyteller.png';
+import dictionary from '../../public/assets/dictionary-app.png';
+import worldClock from '../../public/assets/world-clock-app.png';
+import travelPage from '../../public/assets/travel-homepage.png';
+import blackjack from '../../public/assets/blackjack.png';
+import weatherApp from '../../public/assets/weather.png';
+import communityForum from '../../public/assets/community-forum.png';
+import shareWithOtters from '../../public/assets/share-with-otters.png';
 
 function Projects() {
   const featuredApps = [

@@ -6,8 +6,8 @@ import Projects from './directory/Projects';
 import Contact from './directory/Contact';
 import Footer from './Footer';
 import { useState, useEffect } from 'react';
-import nightMountain from './assets/night-mountain.jpg';
-import alpineMountain from './assets/alpine-mountain.jpg';
+import nightMountain from '../public/assets/night-mountain.jpg';
+import alpineMountain from '../public/assets/alpine-mountain.jpg';
 
 function App() {
   //SET STYLES FOR DARK MODE TOGGLE

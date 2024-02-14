@@ -1,6 +1,6 @@
 import '../css/About.css';
-import fullProfile from '../assets/full-profile.jpg';
-import resume from '../assets/jenna-westendorf-resume.pdf';
+import fullProfile from '../../public/assets/full-profile.jpg';
+import resume from '../../public/assets/jenna-westendorf-resume.pdf';
 
 function About() {
   return (
