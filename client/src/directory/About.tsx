@@ -1,4 +1,6 @@
 import '../css/About.css';
+import fullProfile from '../assets/full-profile.jpg';
+import resume from '../assets/jenna-westendorf-resume.pdf';
 
 function About() {
   return (
@@ -32,7 +34,7 @@ function About() {
           </div>
         </div>
         <img
-          src='/src/assets/full-profile.jpg'
+          src={fullProfile}
           alt='professional photo'
           title='Jenna Westendorf professional image'
           className='about-photo'
@@ -105,7 +107,7 @@ function About() {
               style={{ backgroundColor: 'var(--button-color)' }}
             >
               <a
-                href='../src/assets/jenna-westendorf-resume.pdf'
+                href={resume}
                 target='_blank'
                 download='Resume-Jenna Westendorf'
                 className='primary-link resume'

@@ -6,6 +6,8 @@ import Projects from './directory/Projects';
 import Contact from './directory/Contact';
 import Footer from './Footer';
 import { useState, useEffect } from 'react';
+import nightMountain from './assets/night-mountain.jpg';
+import alpineMountain from './assets/alpine-mountain.jpg';
 
 function App() {
   //SET STYLES FOR DARK MODE TOGGLE
@@ -14,9 +16,7 @@ function App() {
   const darkFont = darkMode ? 'var(--light-font)' : 'white';
   const buttonColor = darkMode ? '#161719' : 'var(--dark-font)';
   const filterImg = darkMode ? `brightness(50%)` : `brightness(100%)`;
-  const homeImg = darkMode
-    ? `url(/src/assets/night-mountain.jpg)`
-    : `url(/src/assets/alpine-mountain.jpg)`;
+  const homeImg = darkMode ? nightMountain : alpineMountain;
   const primaryBackground = darkMode ? '#212529' : 'white';
   const accentBackground = darkMode
     ? 'rgba(30, 44, 47, 0.4)'
@@ -24,7 +24,7 @@ function App() {
 
   //RENDER DARK MODE TOGGLE
   useEffect(() => {
-    document.documentElement.style.setProperty('--home-img', homeImg);
+    document.documentElement.style.setProperty('--home-img', `url(${homeImg})`);
     document.documentElement.style.setProperty('--filter-img', filterImg);
     document.documentElement.style.setProperty('--button-color', buttonColor);
     document.documentElement.style.setProperty('--dark-color', darkFont);
