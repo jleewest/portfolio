@@ -117,3 +117,15 @@
     padding-right: 2rem;
   }
 }
+
+@media (max-width: 440px) {
+  .About .about-photo {
+    max-height: 100vw;
+  }
+  .About h2 {
+    font-size: 2rem;
+  }
+  .About .header-icon {
+    padding: 0.2rem;
+  }
+}
