@@ -24,6 +24,7 @@
 @media (max-width: 500px) {
   .Home h1 {
     font-size: 3rem;
+    padding-top: 6rem;
   }
   .Home h2 {
     font-size: 1.25rem;
