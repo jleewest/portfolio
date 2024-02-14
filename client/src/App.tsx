@@ -41,7 +41,16 @@ function App() {
     darkMode
       ? backgroundColor?.classList.add('dark-background')
       : backgroundColor?.classList.remove('dark-background');
-  }, [darkMode]);
+  }, [
+    darkMode,
+    accentBackground,
+    brightFont,
+    buttonColor,
+    darkFont,
+    filterImg,
+    homeImg,
+    primaryBackground,
+  ]);
 
   //TOGGLE DARK THEME
   function changeTheme() {
