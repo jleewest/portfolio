@@ -1,6 +1,5 @@
 /* CONTAINER */
 .Projects {
-  background-color: rgba(111, 142, 169, 0.4);
   color: black;
   padding: 5rem;
 }
@@ -31,7 +30,6 @@
 }
 
 /* IMAGE */
-
 .ProjectItem .img-container {
   display: flex;
   justify-content: center;
@@ -64,7 +62,6 @@
 
 /* BUTTON */
 .ProjectItem button {
-  background-color: rgba(34, 52, 76, 0.8);
   position: absolute;
   bottom: 0.5rem;
   left: 50%;

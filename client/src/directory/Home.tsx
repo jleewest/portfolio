@@ -1,17 +1,13 @@
 import '../css/Home.css';
 
-type HomeProps = {
-  backgroundImage: string;
-};
-
-function Home(props: HomeProps) {
+function Home() {
   return (
     <div className='Home' id='home'>
       {' '}
       <div
         className='background-home home-background m-0'
         style={{
-          backgroundImage: `url(${props.backgroundImage})`,
+          backgroundImage: 'var(--home-img)',
           color: 'var(--bright-color)',
         }}
       >

@@ -14,8 +14,8 @@ function About() {
               target='_blank'
             >
               <i
-                className='fa-brands fa-linkedin menu-icon'
-                style={{ color: '#0a0a0a' }}
+                className='fa-brands fa-linkedin'
+                style={{ color: '#000000' }}
               ></i>
             </a>
             <a
@@ -25,7 +25,7 @@ function About() {
               target='_blank'
             >
               <i
-                className='fa-brands fa-square-github menu-icon'
+                className='fa-brands fa-square-github'
                 style={{ color: '#000000' }}
               ></i>
             </a>
@@ -36,6 +36,7 @@ function About() {
           alt='professional photo'
           title='Jenna Westendorf professional image'
           className='about-photo'
+          style={{ filter: 'var(--filter-img)' }}
         />
         <div>
           <div className='header-container lg-header'>
@@ -48,7 +49,7 @@ function About() {
                 target='_blank'
               >
                 <i
-                  className='fa-brands fa-linkedin menu-icon'
+                  className='fa-brands fa-linkedin'
                   style={{ color: '#0a0a0a' }}
                 ></i>
               </a>
@@ -59,7 +60,7 @@ function About() {
                 target='_blank'
               >
                 <i
-                  className='fa-brands fa-square-github menu-icon'
+                  className='fa-brands fa-square-github'
                   style={{ color: '#000000' }}
                 ></i>
               </a>
@@ -98,6 +99,22 @@ function About() {
             salsa dancing, playing board games, and solving logic and crossword
             puzzles.
           </p>
+          <div className='d-flex justify-content-end'>
+            <button
+              className='resume-button btn btn-dark'
+              style={{ backgroundColor: 'var(--button-color)' }}
+            >
+              <a
+                href='../src/assets/Jenna-Westendorf-Resume.pdf'
+                target='_blank'
+                download='Resume-Jenna Westendorf'
+                className='primary-link resume'
+                style={{ color: 'var(--dark-color)' }}
+              >
+                Download Resume
+              </a>
+            </button>
+          </div>
         </div>
       </div>
     </div>

@@ -1,12 +1,11 @@
 import './css/Footer.css';
 
-type FooterProps = {
-  backgroundColor: string;
-};
-
-function Footer(props: FooterProps) {
+function Footer() {
   return (
-    <div className='Footer' style={{ backgroundColor: props.backgroundColor }}>
+    <div
+      className='Footer'
+      style={{ backgroundColor: 'var(--primary-background)' }}
+    >
       <nav className='my-2 my-sm-0 mr-sm-3'>
         <a className='menu-link' href='#home' title='Learn more about me'>
           Home

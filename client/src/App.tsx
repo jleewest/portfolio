@@ -8,27 +8,42 @@ import Footer from './Footer';
 import { useState, useEffect } from 'react';
 
 function App() {
+  //SET STYLES FOR DARK MODE TOGGLE
   const [darkMode, setDarkMode] = useState<boolean>(false);
-  const [backgroundImage, setBackgroundImage] = useState<string>(
-    '/src/assets/alpine-mountain.jpg'
-  );
-  const [backgroundColor, setBackgroundColor] = useState<string>('white');
-  const brightColor = darkMode ? 'black' : 'white';
+  const brightFont = darkMode ? 'black' : 'white';
+  const darkFont = darkMode ? 'var(--light-font)' : 'white';
+  const buttonColor = darkMode ? '#161719' : 'var(--dark-font)';
+  const filterImg = darkMode ? `brightness(50%)` : `brightness(100%)`;
+  const homeImg = darkMode
+    ? `url(/src/assets/night-mountain.jpg)`
+    : `url(/src/assets/alpine-mountain.jpg)`;
+  const primaryBackground = darkMode ? '#212529' : 'white';
+  const accentBackground = darkMode
+    ? 'rgba(30, 44, 47, 0.4)'
+    : 'rgba(111, 142, 169, 0.4)';
 
+  //RENDER DARK MODE TOGGLE
   useEffect(() => {
-    document.documentElement.style.setProperty('--bright-color', brightColor);
+    document.documentElement.style.setProperty('--home-img', homeImg);
+    document.documentElement.style.setProperty('--filter-img', filterImg);
+    document.documentElement.style.setProperty('--button-color', buttonColor);
+    document.documentElement.style.setProperty('--dark-color', darkFont);
+    document.documentElement.style.setProperty('--bright-color', brightFont);
+    document.documentElement.style.setProperty(
+      '--primary-background',
+      primaryBackground
+    );
+    document.documentElement.style.setProperty(
+      '--accent-background',
+      accentBackground
+    );
     const backgroundColor = document.querySelector('.App');
-    if (darkMode) {
-      backgroundColor?.classList.add('dark-background');
-      setBackgroundImage('/src/assets/night-mountain.jpg');
-      setBackgroundColor(' #212529');
-    } else {
-      backgroundColor?.classList.remove('dark-background');
-      setBackgroundImage('/src/assets/alpine-mountain.jpg');
-      setBackgroundColor('white');
-    }
-  }, [darkMode, brightColor]);
+    darkMode
+      ? backgroundColor?.classList.add('dark-background')
+      : backgroundColor?.classList.remove('dark-background');
+  }, [darkMode]);
 
+  //TOGGLE DARK THEME
   function changeTheme() {
     setDarkMode(!darkMode);
   }
@@ -36,11 +51,11 @@ function App() {
   return (
     <div className='App'>
       <Navbar changeTheme={changeTheme} />
-      <Home backgroundImage={backgroundImage} />
+      <Home />
       <About />
-      <Projects backgroundColor={backgroundColor} />
+      <Projects />
       <Contact />
-      <Footer backgroundColor={backgroundColor} />
+      <Footer />
     </div>
   );
 }

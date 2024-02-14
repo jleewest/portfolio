@@ -10,32 +10,38 @@ type ProjectItemProps = {
     alt: string;
     link: string;
   };
-  backgroundColor: string;
 };
 
-function ProjectItem({ props, backgroundColor }: ProjectItemProps) {
+function ProjectItem({ props }: ProjectItemProps) {
   return (
     <div
       className='ProjectItem'
-      style={{ backgroundColor: backgroundColor, borderColor: backgroundColor }}
+      style={{
+        backgroundColor: 'var(--primary-background)',
+        borderColor: 'var(--primary-background)',
+      }}
     >
       <div className='img-container'>
         <img
           src={props.img}
           alt={props.alt}
           className='img-fluid app-thumbnail'
+          style={{ filter: 'var(--filter-img)' }}
         />
       </div>
       <div className='body-container'>
         <h3>{props.title}</h3>
         <p>{props.body}</p>
         <p className='stack'>&lt;{props.stack}&gt;</p>
-        <button className='link-button btn btn-dark'>
+        <button
+          className='link-button btn btn-dark'
+          style={{ backgroundColor: 'var(--button-color)' }}
+        >
           <a
             href={props.link}
             target='_blank'
             className='primary-link'
-            style={{ color: 'var(--bright-color)' }}
+            style={{ color: 'var(--dark-color)' }}
           >
             See project
           </a>

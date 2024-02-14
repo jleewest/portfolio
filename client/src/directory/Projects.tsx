@@ -1,11 +1,7 @@
 import '../css/Projects.css';
 import ProjectItem from './ProjectItem';
 
-type ProjectsProps = {
-  backgroundColor: string;
-};
-
-function Projects(props: ProjectsProps) {
+function Projects() {
   const featuredApps = [
     {
       id: 1,
@@ -30,7 +26,7 @@ function Projects(props: ProjectsProps) {
       id: 3,
       title: 'Weather App',
       body: `An app capable of collecting current and forecasted weather from any
-			city using geoloaction or a search bar with an additional ability
+			city using geolocation or a search bar with an additional ability
 			to toggle between Fahrenheit and Celsius temperature displays.`,
       stack: 'HTML, CSS, Javascript',
       img: '/src/assets/weather.png',
@@ -85,17 +81,15 @@ function Projects(props: ProjectsProps) {
   ];
 
   return (
-    <div className='Projects' id='projects'>
+    <div
+      className='Projects'
+      id='projects'
+      style={{ backgroundColor: 'var(--accent-background)' }}
+    >
       <h2>Featured Projects</h2>
       <div className='project-item-container'>
         {featuredApps.map((app) => {
-          return (
-            <ProjectItem
-              props={app}
-              key={app.id}
-              backgroundColor={props.backgroundColor}
-            />
-          );
+          return <ProjectItem props={app} key={app.id} />;
         })}
       </div>
     </div>
