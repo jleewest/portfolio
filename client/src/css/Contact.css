@@ -1,7 +1,7 @@
 /* CONTAINER */
 .Contact {
-  background-color: white;
   margin: 5rem 5rem 1rem 5rem;
+  color: black;
 }
 
 .Contact .contact-block {
@@ -34,12 +34,10 @@ h3 {
 }
 
 .Contact .contact-icon {
-  color: #fff;
   padding: 20px;
   font-size: 26px;
 }
 .Contact .contact {
-  color: white;
   font-family: var(--default-font-family);
   font-size: 26px;
   text-decoration: none;

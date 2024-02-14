@@ -1,6 +1,10 @@
 import './css/Navbar.css';
 
-function NavBar() {
+type NavbarProps = {
+  changeTheme: () => void;
+};
+
+function NavBar(props: NavbarProps) {
   return (
     <div className='Navbar'>
       <div className='navigation-section sticky-top'>
@@ -47,7 +51,12 @@ function NavBar() {
           </div>
           <div>
             <ul>
-              <li className='nav-item nav-moon theme-button mx-2'>Dark Mode</li>
+              <li
+                className='nav-item nav-moon theme-button mx-2'
+                onClick={props.changeTheme}
+              >
+                Dark Mode
+              </li>
             </ul>
           </div>
         </nav>

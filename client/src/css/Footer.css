@@ -1,5 +1,4 @@
 .Footer {
-  background-color: white;
   text-align: right;
   padding: 10px 20px;
 }
@@ -10,15 +9,9 @@
 .Footer a {
   text-decoration: none;
   padding: 0.5rem;
+  color: black;
 }
 
 .Footer i {
   padding: 0.25rem;
-}
-
-.Footer .background-image {
-  background-color: white;
-  background-image: url(/src/assets/alpine-mountain.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
 }

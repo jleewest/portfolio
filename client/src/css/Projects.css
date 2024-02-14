@@ -64,6 +64,7 @@
 
 /* BUTTON */
 .ProjectItem button {
+  background-color: rgba(34, 52, 76, 0.8);
   position: absolute;
   bottom: 0.5rem;
   left: 50%;
@@ -72,7 +73,6 @@
 }
 .ProjectItem button > a {
   text-decoration: none;
-  color: white;
 }
 
 @media (max-width: 1083px) {

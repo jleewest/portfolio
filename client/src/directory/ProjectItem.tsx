@@ -1,6 +1,6 @@
 import '../css/Projects.css';
 
-type AppProps = {
+type ProjectItemProps = {
   props: {
     id: number;
     title: string;
@@ -10,11 +10,15 @@ type AppProps = {
     alt: string;
     link: string;
   };
+  backgroundColor: string;
 };
 
-function ProjectItem({ props }: AppProps) {
+function ProjectItem({ props, backgroundColor }: ProjectItemProps) {
   return (
-    <div className='ProjectItem'>
+    <div
+      className='ProjectItem'
+      style={{ backgroundColor: backgroundColor, borderColor: backgroundColor }}
+    >
       <div className='img-container'>
         <img
           src={props.img}
@@ -26,8 +30,13 @@ function ProjectItem({ props }: AppProps) {
         <h3>{props.title}</h3>
         <p>{props.body}</p>
         <p className='stack'>&lt;{props.stack}&gt;</p>
-        <button className='link-button btn btn-dark border'>
-          <a href={props.link} target='_blank' className='primary-link'>
+        <button className='link-button btn btn-dark'>
+          <a
+            href={props.link}
+            target='_blank'
+            className='primary-link'
+            style={{ color: 'var(--bright-color)' }}
+          >
             See project
           </a>
         </button>

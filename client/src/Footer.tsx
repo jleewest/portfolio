@@ -1,31 +1,23 @@
 import './css/Footer.css';
 
-function Footer() {
+type FooterProps = {
+  backgroundColor: string;
+};
+
+function Footer(props: FooterProps) {
   return (
-    <div className='Footer background-image'>
+    <div className='Footer' style={{ backgroundColor: props.backgroundColor }}>
       <nav className='my-2 my-sm-0 mr-sm-3'>
-        <a
-          className='text-dark menu-link'
-          href='#home'
-          title='Learn more about me'
-        >
+        <a className='menu-link' href='#home' title='Learn more about me'>
           Home
         </a>
-        <a
-          className='text-dark menu-link'
-          href='#about'
-          title='Learn more about me'
-        >
+        <a className='menu-link' href='#about' title='Learn more about me'>
           About
         </a>
-        <a
-          className='text-dark menu-link'
-          href='#projects'
-          title='View my work'
-        >
+        <a className='menu-link' href='#projects' title='View my work'>
           Projects
         </a>
-        <a className='text-dark menu-link' href='#contact' title='Contact me'>
+        <a className='menu-link' href='#contact' title='Contact me'>
           Contact
         </a>
         <a

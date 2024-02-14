@@ -1,7 +1,11 @@
 import '../css/Projects.css';
 import ProjectItem from './ProjectItem';
 
-function Projects() {
+type ProjectsProps = {
+  backgroundColor: string;
+};
+
+function Projects(props: ProjectsProps) {
   const featuredApps = [
     {
       id: 1,
@@ -85,7 +89,13 @@ function Projects() {
       <h2>Featured Projects</h2>
       <div className='project-item-container'>
         {featuredApps.map((app) => {
-          return <ProjectItem props={app} key={app.id} />;
+          return (
+            <ProjectItem
+              props={app}
+              key={app.id}
+              backgroundColor={props.backgroundColor}
+            />
+          );
         })}
       </div>
     </div>

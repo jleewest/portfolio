@@ -13,3 +13,7 @@
   --dark-font: #212529;
   --light-font: #525a65;
 }
+
+.dark-background {
+  background-color: var(--dark-font) !important;
+}
