@@ -19,7 +19,7 @@ function Projects() {
         'React, Typescript, Material UI, Chart.js, Vanilla CSS, Node.js, Express, Prisma, Postgres, Vitest, Cypress',
       img: shareWithOtters,
       alt: 'ShareWithOtters app preview',
-      link: 'https://youtu.be/LrQ4M3MHrb8',
+      link: 'https://github.com/jleewest/ShareWithOtters',
     },
     {
       id: 2,
@@ -28,7 +28,7 @@ function Projects() {
       stack: 'React, Clerk, Node.js, Express, Postgres, Sequelize',
       img: communityForum,
       alt: 'community collaboration app preview',
-      link: 'https://youtu.be/TcZ7vQzzeEY',
+      link: 'https://github.com/jleewest/swc-community',
     },
     {
       id: 3,

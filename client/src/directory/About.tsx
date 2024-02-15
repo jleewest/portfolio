@@ -73,11 +73,14 @@ function About() {
             SQL, Responsive Web Development, CSS, Figma, GitHub, APIs&gt;
           </p>
           <p>
-            Whether I worked in the field of education, social work, or
-            nonprofits, my career has always focused on advancing the capacity
-            for people and organizations to achieve positive impacts. I am a
-            highly motivated, self-driven team builder and outdoor enthusiast
-            with an extensive background in organizational behavior, promoting
+            Fullstack Developer with a background in education, social work,
+            nonprofits, and outdoor recreation.
+          </p>
+          <p>
+            My career has always focused on advancing the capacity for people
+            and organizations to achieve positive impacts. I am a highly
+            motivated, self-driven team builder and outdoor enthusiast with an
+            extensive background in organizational behavior, promoting
             psychologically safety in team development processes, project
             management, and a commitment to continuous learning.
           </p>
@@ -87,13 +90,13 @@ function About() {
             contribute to positive change. This journey into coding began over
             ten years ago, as I began exploring my own ideas of how applications
             and software can be applied to solve everyday problems and
-            challenges. In the past year, I have immersed myself into the
-            software development world, thriving on the endless opportunities to
-            learn and apply new technologies. Through a career in software
-            engineering, I am motivated to continue to push the boundaries of
-            what a more equitable, inclusive, and sustainable world can look
-            like. I thrive in environments that promote connection and challenge
-            me to push my physical, mental, and emotional capabilities.
+            challenges. Since I have immersed myself into the software
+            development world, I have been thriving on the endless opportunities
+            to learn and apply new technologies. I am motivated to continue to
+            push the boundaries of what a more equitable, inclusive, and
+            sustainable world can look like. I thrive in environments that
+            promote connection and challenge me to push my physical, mental, and
+            emotional capabilities.
           </p>
           <p>
             When I am not programming, I enjoy mountain biking, rock climbing,
