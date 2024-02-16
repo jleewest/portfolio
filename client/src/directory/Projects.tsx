@@ -44,7 +44,7 @@ function Projects() {
     {
       id: 4,
       title: 'Blackjack',
-      body: `Try your hand at blackjack! An app capable of playing one-hand blackjack between one player and a computer`,
+      body: `Try your hand at Blackjack! An app capable of playing one-hand blackjack between one player and a computer`,
       stack: 'HTML, CSS, Javascript',
       img: blackjack,
       alt: 'blackjack app preview',

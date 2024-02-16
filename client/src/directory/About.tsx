@@ -81,21 +81,21 @@ function About() {
             and organizations to achieve positive impacts. I am a highly
             motivated, self-driven team builder and outdoor enthusiast with an
             extensive background in organizational behavior, promoting
-            psychologically safety in team development processes, project
+            psychological safety in team development processes, project
             management, and a commitment to continuous learning.
           </p>
           <p>
             My passion for software development emerges from my love for solving
-            puzzles and working with a team to develop innovate solutions that
+            puzzles and working with a team to develop innovative solutions that
             contribute to positive change. This journey into coding began over
             ten years ago, as I began exploring my own ideas of how applications
             and software can be applied to solve everyday problems and
-            challenges. Since I have immersed myself into the software
-            development world, I have been thriving on the endless opportunities
-            to learn and apply new technologies. I am motivated to continue to
-            push the boundaries of what a more equitable, inclusive, and
-            sustainable world can look like. I thrive in environments that
-            promote connection and challenge me to push my physical, mental, and
+            challenges. Since I have immersed myself in the software development
+            world, I have been thriving on the endless opportunities to learn
+            and apply new technologies. I am motivated to continue to push the
+            boundaries of what a more equitable, inclusive, and sustainable
+            world can look like. I thrive in environments that promote
+            connection and challenge me to push my physical, mental, and
             emotional capabilities.
           </p>
           <p>
