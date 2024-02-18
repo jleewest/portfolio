@@ -73,8 +73,10 @@ function About() {
             SQL, Responsive Web Development, CSS, Figma, GitHub, APIs&gt;
           </p>
           <p>
-            Fullstack Developer with a background in education, social work,
-            nonprofits, and outdoor recreation.
+            Full-Stack Developer with 15+ years working collaboratively in
+            diverse team environments to deliver quality results and cultivate
+            supportive and productive team environments in education, social
+            work, nonprofit, and outdoor recreation.
           </p>
           <p>
             My career has always focused on advancing the capacity for people
